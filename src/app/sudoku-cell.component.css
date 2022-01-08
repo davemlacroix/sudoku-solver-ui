@@ -1,4 +1,4 @@
-.number-tile {
+.sudoku-cell {
     align-items: center;
     background-color: rgb(110, 192, 240);
     border: 3px solid rgb(31, 135, 196);
