@@ -1,14 +1,8 @@
 <div class="card m-5" >
-  <div class="card-body" style="width:450px; height:450px;padding:5px">
-    <sudoku-grid></sudoku-grid>
-    <sudoku-grid></sudoku-grid>
-    <sudoku-grid></sudoku-grid>
-    <sudoku-grid></sudoku-grid>
-    <sudoku-grid></sudoku-grid>
-    <sudoku-grid></sudoku-grid>
-    <sudoku-grid></sudoku-grid>
-    <sudoku-grid></sudoku-grid>
-    <sudoku-grid></sudoku-grid>
+  <div class="card-body" style="width:450px; height:450px;">
+    <div *ngFor="let rows of puzzle">
+      <sudoku-cell *ngFor="let row of rows.row" [value]="row.value"></sudoku-cell>
+    </div>
   </div>
 </div>
   
