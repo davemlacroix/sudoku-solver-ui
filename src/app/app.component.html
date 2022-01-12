@@ -1,7 +1,7 @@
 <div class="card m-5" >
   <div class="card-body" style="width:450px; height:450px;">
     <div *ngFor="let rows of puzzle; let i = index">
-      <sudoku-cell *ngFor="let row of rows.row; let j = index" [value]="j" [ngClass]="{leftBorder:j%3===0, rightBorder:j===8, topBorder:i%3==0, bottomBorder:i===8}" class="sudoku-cell"></sudoku-cell>
+      <sudoku-cell *ngFor="let cell of rows.row; let j = index" [value]="cell.value" [ngClass]="{leftBorder:j%3===0, rightBorder:j===8, topBorder:i%3==0, bottomBorder:i===8}" class="sudoku-cell"></sudoku-cell>
     </div>
   </div>
 </div>
