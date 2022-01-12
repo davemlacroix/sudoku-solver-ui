@@ -1,3 +1,4 @@
+
 .sudoku-cell {
     align-items: center;
     background-color: rgb(110, 192, 240);
@@ -12,4 +13,19 @@
     text-align: center;
     display: inline-block;
   } 
- 
+
+  .leftBorder {
+    border-left: 8px solid rgb(31, 135, 196) !important;
+  }
+
+  .rightBorder {
+    border-right: 8px solid rgb(31, 135, 196) !important;
+  }
+
+  .topBorder {
+    border-top: 8px solid rgb(31, 135, 196) !important;
+  }
+
+  .bottomBorder {
+    border-bottom: 8px solid rgb(31, 135, 196) !important;
+  }
