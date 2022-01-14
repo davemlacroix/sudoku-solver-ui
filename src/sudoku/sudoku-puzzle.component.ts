@@ -11,9 +11,11 @@ export class SudokuPuzzleComponent{
 
     constructor(private sudokuService: SudokuService)
     {
-        this.puzzle = this.sudokuService.getSudokuPuzzle();
+        this.puzzle = []
     }
 
-    
+    ngOnInit()  {
+        this.puzzle = this.sudokuService.getSudokuPuzzle();
+    }
 
 }
