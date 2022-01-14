@@ -1,4 +1,4 @@
-import { Component, Input } from "@angular/core";
+import { Component, OnInit } from "@angular/core";
 import { SudokuService } from "./sudoku.service";
 
 @Component({
@@ -6,7 +6,7 @@ import { SudokuService } from "./sudoku.service";
     templateUrl: './sudoku-puzzle.component.html',
     styleUrls: ['./sudoku-puzzle.component.css']
 })
-export class SudokuPuzzleComponent{
+export class SudokuPuzzleComponent implements OnInit{
     puzzle:any[]
 
     constructor(private sudokuService: SudokuService)
