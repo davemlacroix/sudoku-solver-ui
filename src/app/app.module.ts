@@ -3,8 +3,8 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
-import { SudokuPuzzleComponent } from 'src/sudoku-puzzle/sudoku-puzzle.component';
-import { SudokuCellComponent } from 'src/sudoku-puzzle/sudoku-cell.component';
+import { SudokuPuzzleComponent } from 'src/sudoku/sudoku-puzzle.component';
+import { SudokuCellComponent } from 'src/sudoku/sudoku-cell.component';
 
 @NgModule({
   declarations: [
