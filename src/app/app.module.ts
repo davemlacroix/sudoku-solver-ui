@@ -1,10 +1,10 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
 import { AppComponent } from './app.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { SudokuPuzzleComponent } from 'src/sudoku/sudoku-puzzle.component';
 import { SudokuCellComponent } from 'src/sudoku/sudoku-cell.component';
+import { SudokuService } from 'src/sudoku/sudoku.service';
 
 @NgModule({
   declarations: [
@@ -16,7 +16,7 @@ import { SudokuCellComponent } from 'src/sudoku/sudoku-cell.component';
     BrowserModule,
     NgbModule
   ],
-  providers: [],
+  providers: [SudokuService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
