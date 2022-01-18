@@ -1,5 +1,5 @@
 import { Component, OnInit } from "@angular/core";
-import { SudokuService } from "./sudoku.service";
+import { SudokuService } from "../../services/sudoku.service";
 
 @Component({
     selector: 'sudoku-puzzle',

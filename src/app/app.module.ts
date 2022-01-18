@@ -1,10 +1,10 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { AppComponent } from './app.component';
+import { AppComponent } from './components/app.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
-import { SudokuPuzzleComponent } from 'src/sudoku/sudoku-puzzle.component';
-import { SudokuCellComponent } from 'src/sudoku/sudoku-cell.component';
-import { SudokuService } from 'src/sudoku/sudoku.service';
+import { SudokuPuzzleComponent } from 'src/app/components/sudoku/sudoku-puzzle.component';
+import { SudokuCellComponent } from 'src/app/components/sudoku/sudoku-cell.component';
+import { SudokuService } from 'src/app/services/sudoku.service';
 
 @NgModule({
   declarations: [
