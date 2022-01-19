@@ -1,4 +1,5 @@
 import { Component, OnInit } from "@angular/core";
+import { ISudokuPuzzle } from "src/app/models/sudoku-puzzle.model";
 import { SudokuService } from "../../services/sudoku.service";
 
 @Component({
@@ -7,15 +8,25 @@ import { SudokuService } from "../../services/sudoku.service";
     styleUrls: ['./sudoku-puzzle.component.css']
 })
 export class SudokuPuzzleComponent implements OnInit{
-    puzzle:any[]
+    puzzle:ISudokuPuzzle
 
     constructor(private sudokuService: SudokuService)
     {
-        this.puzzle = []
+        this.puzzle = {
+        puzzle: [
+                    [
+                        {
+                            value: 0
+                        },
+                    ]
+                ]}
+        //init puzzle to something before ngOnInit -- is there a better way?
+        //at least change to empty puzzle
     }
 
+
     ngOnInit()  {
-        this.puzzle = this.sudokuService.getSudokuPuzzle();
+        this.sudokuService.getSudokuPuzzle().subscribe(puzzle => {this.puzzle = puzzle;});
     }
 
 }
