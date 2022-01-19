@@ -1,4 +1,4 @@
 export interface ISudokuCell
 {
-    value : number
+    value? : number
 }

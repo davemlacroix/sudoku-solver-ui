@@ -12,16 +12,20 @@ export class SudokuPuzzleComponent implements OnInit{
 
     constructor(private sudokuService: SudokuService)
     {
-        this.puzzle = {
-        puzzle: [
-                    [
-                        {
-                            value: 0
-                        },
-                    ]
-                ]}
-        //init puzzle to something before ngOnInit -- is there a better way?
-        //at least change to empty puzzle
+        this.puzzle = 
+            {
+               puzzle : [
+                   [{}, {},{}, {},{}, {},{}, {},{} ],
+                   [{}, {},{}, {},{}, {},{}, {},{} ],
+                   [{}, {},{}, {},{}, {},{}, {},{} ],
+                   [{}, {},{}, {},{}, {},{}, {},{} ],
+                   [{}, {},{}, {},{}, {},{}, {},{} ],
+                   [{}, {},{}, {},{}, {},{}, {},{} ],
+                   [{}, {},{}, {},{}, {},{}, {},{} ],
+                   [{}, {},{}, {},{}, {},{}, {},{} ],
+                   [{}, {},{}, {},{}, {},{}, {},{} ]
+               ]    
+            }
     }
 
 
