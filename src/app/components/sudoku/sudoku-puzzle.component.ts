@@ -28,7 +28,6 @@ export class SudokuPuzzleComponent implements OnInit{
             }
     }
 
-
     ngOnInit()  {
         this.sudokuService.getSudokuPuzzle().subscribe(puzzle => {this.puzzle = puzzle;});
     }

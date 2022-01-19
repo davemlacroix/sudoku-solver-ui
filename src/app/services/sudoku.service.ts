@@ -16,8 +16,6 @@ export class SudokuService  {
         setTimeout(() => {subject.next(puzzle); subject.complete();}, 100);
         return subject;
     }
-
-
 }
 
  const puzzle: ISudokuPuzzle = 

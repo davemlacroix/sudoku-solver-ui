@@ -2,8 +2,7 @@ import { Component, Input } from "@angular/core";
 
 @Component({
     selector: 'sudoku-cell',
-    template: `{{value}}`,
-    styleUrls: ['./sudoku-cell.component.css']
+    template: `{{value}}`
 })
 export class SudokuCellComponent{
     @Input() value:any
