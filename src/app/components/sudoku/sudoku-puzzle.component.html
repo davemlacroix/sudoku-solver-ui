@@ -1,5 +1,5 @@
 <div class="card m-5" >
-  <div class="card-body" style="width:450px; height:450px;">
+  <div class="card-body" style="min-width:300px; min-height:300px; max-width:500px; max-height:500px;">
     <div *ngFor="let rows of puzzle.puzzle; let i = index">
         <sudoku-cell *ngFor="let cell of rows; let j = index" [value]="cell.value" [ngClass]="{leftBorder:j%3===0, rightBorder:j%3===2, topBorder:i%3==0, bottomBorder:i%3===2}" class="sudokuCell"></sudoku-cell>
       </div>
