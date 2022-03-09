@@ -30,263 +30,263 @@ export class SudokuService  {
         puzzle : [
             [
                 {
-                    value: 8
+                    value: undefined
                 },
                 {
-                    value: 9
+                    value: undefined
                 },
                 {
-                    value: 7
+                    value: undefined
                 },
                 {
-                    value: 3
+                    value: undefined
                 },
                 {
-                    value: 9
+                    value: undefined
                 },
                 {
-                    value: 9
+                    value: undefined
                 },
                 {
-                    value: 9
+                    value: undefined
                 },
                 {
-                    value: 9
+                    value: undefined
                 },
                 {
-                    value: 9
+                    value: undefined
                 }
             ],
             [
                 {
-                    value: 8
+                    value: undefined
                 },
                 {
-                    value: 9
+                    value: undefined
                 },
                 {
-                    value: 7
+                    value: undefined
                 },
                 {
-                    value: 3
+                    value: undefined
                 },
                 {
-                    value: 9
+                    value: undefined
                 },
                 {
-                    value: 9
+                    value: undefined
                 },
                 {
-                    value: 9
+                    value: undefined
                 },
                 {
-                    value: 9
+                    value: undefined
                 },
                 {
-                    value: 9
+                    value: undefined
                 }
             ],
             [
                 {
-                    value: 8
+                    value: undefined
                 },
                 {
-                    value: 9
+                    value: undefined
                 },
                 {
-                    value: 7
+                    value: undefined
                 },
                 {
-                    value: 3
+                    value: undefined
                 },
                 {
-                    value: 9
+                    value: undefined
                 },
                 {
-                    value: 9
+                    value: undefined
                 },
                 {
-                    value: 9
+                    value: undefined
                 },
                 {
-                    value: 9
+                    value: undefined
                 },
                 {
-                    value: 9
+                    value: undefined
                 }
             ],
             [
                 {
-                    value: 8
+                    value: undefined
                 },
                 {
-                    value: 9
+                    value: undefined
                 },
                 {
-                    value: 7
+                    value: undefined
                 },
                 {
-                    value: 3
+                    value: undefined
                 },
                 {
-                    value: 9
+                    value: undefined
                 },
                 {
-                    value: 9
+                    value: undefined
                 },
                 {
-                    value: 9
+                    value: undefined
                 },
                 {
-                    value: 9
+                    value: undefined
                 },
                 {
-                    value: 9
+                    value: undefined
                 }
             ],
             [
                 {
-                    value: 8
+                    value: undefined
                 },
                 {
-                    value: 9
+                    value: undefined
                 },
                 {
-                    value: 7
+                    value: undefined
                 },
                 {
-                    value: 3
+                    value: undefined
                 },
                 {
-                    value: 9
+                    value: undefined
                 },
                 {
-                    value: 9
+                    value: undefined
                 },
                 {
-                    value: 9
+                    value: undefined
                 },
                 {
-                    value: 9
+                    value: undefined
                 },
                 {
-                    value: 9
+                    value: undefined
                 }
             ],
             [
                 {
-                    value: 8
+                    value: undefined
                 },
                 {
-                    value: 9
+                    value: undefined
                 },
                 {
-                    value: 7
+                    value: undefined
                 },
                 {
-                    value: 3
+                    value: undefined
                 },
                 {
-                    value: 9
+                    value: undefined
                 },
                 {
-                    value: 9
+                    value: undefined
                 },
                 {
-                    value: 9
+                    value: undefined
                 },
                 {
-                    value: 9
+                    value: undefined
                 },
                 {
-                    value: 9
+                    value: undefined
                 }
             ],
             [
                 {
-                    value: 8
+                    value: undefined
                 },
                 {
-                    value: 9
+                    value: undefined
                 },
                 {
-                    value: 7
+                    value: undefined
                 },
                 {
-                    value: 3
+                    value: undefined
                 },
                 {
-                    value: 9
+                    value: undefined
                 },
                 {
-                    value: 9
+                    value: undefined
                 },
                 {
-                    value: 9
+                    value: undefined
                 },
                 {
-                    value: 9
+                    value: undefined
                 },
                 {
-                    value: 9
+                    value: undefined
                 }
             ],
             [
                 {
-                    value: 8
+                    value: undefined
                 },
                 {
-                    value: 9
+                    value: undefined
                 },
                 {
-                    value: 7
+                    value: undefined
                 },
                 {
-                    value: 3
+                    value: undefined
                 },
                 {
-                    value: 9
+                    value: undefined
                 },
                 {
-                    value: 9
+                    value: undefined
                 },
                 {
-                    value: 9
+                    value: undefined
                 },
                 {
-                    value: 9
+                    value: undefined
                 },
                 {
-                    value: 9
+                    value: undefined
                 }
             ],
             [
                 {
-                    value: 8
+                    value: undefined
                 },
                 {
-                    value: 9
+                    value: undefined
                 },
                 {
-                    value: 7
+                    value: undefined
                 },
                 {
-                    value: 3
+                    value: undefined
                 },
                 {
-                    value: 9
+                    value: undefined
                 },
                 {
-                    value: 9
+                    value: undefined
                 },
                 {
-                    value: 9
+                    value: undefined
                 },
                 {
-                    value: 9
+                    value: undefined
                 },
                 {
-                    value: 9
+                    value: undefined
                 }
             ]
         ]
