@@ -5,7 +5,7 @@
     width: 11.11%;
     height: 11.11%;
     padding-bottom: 11.11%;
-    border: 3px solid rgb(31, 135, 196);
+    border: 1px solid rgb(31, 135, 196);
     color: rgb(100, 104, 109);
     font-family: Inter,sans-serif;
     font-size: 20px;
@@ -15,17 +15,17 @@
   } 
 
   .leftBorder {
-    border-left: 3px solid rgb(5, 60, 92) !important;
+    border-left: 1px solid rgb(5, 60, 92) !important;
   }
 
   .rightBorder {
-    border-right: 3px solid rgb(5, 60, 92) !important;
+    border-right: 1px solid rgb(5, 60, 92) !important;
   }
 
   .topBorder {
-    border-top: 3px solid rgb(5, 60, 92) !important;
+    border-top: 1px solid rgb(5, 60, 92) !important;
   }
 
   .bottomBorder {
-    border-bottom: 3px solid rgb(5, 60, 92) !important;
+    border-bottom: 1px solid rgb(5, 60, 92) !important;
   }
