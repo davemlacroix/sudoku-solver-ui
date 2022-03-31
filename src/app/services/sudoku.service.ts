@@ -12,7 +12,7 @@ export class SudokuService  {
     }
 
     getSudokuPuzzle():Observable<ISudokuPuzzle> { 
-        return this.httpClient.get<ISudokuPuzzle>('https:/localhost:44379/api/puzzle')
+        return this.httpClient.get<ISudokuPuzzle>('https:/localhost:44379/api/puzzles')
             .pipe(catchError(this.handleError<ISudokuPuzzle>('getSudokuPuzzle', puzzle)));
 
     }
